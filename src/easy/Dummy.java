@@ -3,10 +3,11 @@ package easy;
 public class Dummy {
 
 	public static void main(String[] args) {
-		int a=10;
-		int b=10;
-		int C = a+b;
-		int d;
+		int a=20;
+		int b=100;
+		double C = 0;
+		C=(double)a/b;
+		System.out.println(C);
 
 	}
 
