@@ -19,3 +19,9 @@ public class FindTheDiscount {
 	return discounted_price;
 	}
 }
+// TO KNOW : 
+	/* When we try to divide a smaller number using bigger no, if we keep the variables
+	 * as int type it will return 0, because it'll not consider the no's after '.'
+	 * Either need to change both the variables to double else need to type case while
+	 * performing the specific operation
+	 */
