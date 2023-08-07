@@ -10,7 +10,8 @@ public class The3ProgrammersProblem {
 		int B = 33;
 		int C = 526;
 		
-		int temp = (A<B)?A:B;
+		int temp = (A<B)?A:B;    
+				//Check the expression(A<B), if the expression is true it prints A else B
 		int Lowest = (C<temp)?C:temp;
 		//System.out.println(Lowest);
 		
